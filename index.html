@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="srcs/logo-casa-de-candaces.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <title>Casa de Candaces</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body data-bs-theme="light">
+
+  <header>
+    <nav class="navbar-expand-lg navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./srcs/Group 1.png" alt="Logo da Casa de Candaces" width="300px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./assets/logo-mobile.png" alt="Logo da Casa de Candaces"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="modo-noturno">
+                    <label class="form-check-label" for="modo-noturno">Modo noturno</label>
+                  </div></a>
+              </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+      <section class="banners banner-1 d-flex flex-column justify-content-center text-center">
+        <div class="banners-titulo bg-body-secondary py-5">
+          <h2 class="fw-bold"> Casa de Candaces </h2>
+          <p> Somos um coletivo transvesigênere preto e indígena .</p>
+        </div>
+      </section>
+
+      <section class="py-5">
+        <h2 class="text-center fw-bold pb-1"> Kiki Scene</h2>
+
+        <div class="container d-flex justify-content-around flex-wrap">
+
+          <div class="card m-4" style="width: 20rem;">
+            <img src="./srcs/00 ball.jpg" class="card-img-top"
+              alt="imagem da Jordana Candace servindo face">
+            <div class="card-body">
+              <h5 class="card-title py-2 fw-bold">2000 Ball</h5>
+              <p class="card-text"> Ball realizada no mês de Novembro, no /CO Barra Funda em São Paulo. Tema voltado para os anos 2000, reescrevendo a estética e valorizando corpas através da nossa pespectiva, vivências e referências. Tendo categorias como: Beginners Vogue Performance - RBD e Old Way - Michael Jackson </p>
+              <a href="#" class="btn botao-padrao w-100 fw-bold" data-bs-toggle="offcanvas" data-bs-target="#canvas-1" aria-controls="offcanvasRight">Quero detalhes</a>
+            </div>
+          </div>
+
+          <div class="card m-4" style="width: 20rem;">
+            <img src="./srcs/black in gold.jpg" class="card-img-top" alt="foto da casa na ball black in gold">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Black N Gold Ball</h5>
+              <p class="card-text"> Ball realizada no mês de Novembro, na Bienal de São Paulo com objetivo de valorizar corpos discidentes. Categorias que visam a valorização de natarrivas pretas, indígenas e periféricas. Foram feitas categorias como: Pump That Beat OTA
+                Fala, Majeté!/Samba-Enredo e Fashion Killa OTA The Crown - Basquiat </p>
+              <a href="#" class="btn botao-padrao w-100 fw-bold mt-3" data-bs-toggle="offcanvas"
+              data-bs-target="#canvas-2" aria-controls="offcanvasRight">Quero detalhes</a>
+            </div>
+          </div>
+
+          <div class="card m-4" style="width: 20rem;">
+            <img src="./srcs/Baile do egito.jpg" class="card-img-top" alt="imagem de uma pessoa dançando">
+            <div class="card-body">
+              <h5 class="card-title fw-bold"> Baile do Egito </h5>
+              <p class="card-text">Ball realizada no mês de Junho, no Museu da História e da Cultura Afro-Brasileira no Rio de Janeiro, voltado para estética carioca, sobretudo periférica e/ou favelada, trouxemos uma categoria com o marcante passinho de funk, e a Commentator com a inesquecivel Deyze Tigrona</p>
+              <a href="#" class="btn botao-padrao w-100 fw-bold mt-3" data-bs-toggle="offcanvas"
+              data-bs-target="#canvas-3" aria-controls="offcanvasRight">Quero detalhes</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="banners banner-2 d-flex flex-column justify-content-center">
+        <div class="banners-titulo bg-body-secondary text-center py-5">
+          <h2 class="fw-bold"> Nós vivemos em encruzilhadas porque nossa transcestralidade não deitou e assim, começou a travar a guerra para sair dos becos sem saída coloniais.</h2>
+          <p> O participar da performance é expressão de pertencimento a culturas ancestrais, e na pista registramos nossas histórias. Atualizamos o compromisso de não morrer e de perpetuamos as nossas fontes de vida.
+
+          </p>
+        </div>
+      </section>
+
+      <section class="py-5">
+
+        <h2 class="fw-bold text-center pb-1">Conheça a gente</h2>
+        
+        <div class="row mx-0">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-1"
+                    style="width: 18rem;">
+                    <img src="./srcs/mother.jpg" class="card-img-top" alt="Retrato Zaila Candace">
+                    <div class="card-body">
+                        <h3 class="card-text text-center fw-bold">Zaila Candace</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-2"
+                    style="width: 18rem;">
+                    <img src="./srcs/puri.jpg" class="card-img-top" alt="Retrato Puri Candace">
+                    <div class="card-body">
+                        <h3 class="card-text fw-bold text-center">Puri Candace</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-3" 
+                    style="width: 18rem;">
+                <img src="./srcs/cussy.jpg" class="card-img-top" alt="Retrato Cussy Candace">
+                    <div class="card-body">
+                        <h3 class="card-text text-center fw-bold text-nowrap">Cussy Candace</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-4"
+                    style="width: 18rem;">
+                    <img src="./srcs/nubia.jpg" class="card-img-top" alt="Retrato Núbia Candace">
+                    <div class="card-body">
+                        <h3 class="card-text text-center fw-bold">Núbia Candace</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-5"
+                    style="width: 18rem;">
+                    <img src="./srcs/shonda.jpg" class="card-img-top" alt="Retrato Shonda Candace">
+                    <div class="card-body">
+                        <h3 class="card-text text-center fw-bold">Shonda Candace</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-6"
+                    style="width: 18rem;">
+                    <img src="./srcs/jordana.jpg" class="card-img-top" alt="Retrato Jordana Candace">
+                    <div class="card-body">
+                        <h3 class="card-text text-center fw-bold">Jordana Candace</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-7" 
+                  style="width: 18rem;">
+                  <img src="./srcs/terra.jpg" class="card-img-top" alt="Retrato Johari Candace">
+                  <div class="card-body">
+                      <h3 class="card-text text-center fw-bold">Johari Candace</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-8" 
+                style="width: 18rem;">
+                <img src="./srcs/teo.jpg" class="card-img-top" alt="Retrato Obí Candace">
+                <div class="card-body">
+                    <h3 class="card-text text-center fw-bold">Obí Candace</h3>
+                </div>
+            </div>
+        </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-9"
+                  style="width: 18rem;">
+                  <img src="./srcs/mo.jpg" class="card-img-top" alt="Retrato Mavi Candace">
+                  <div class="card-body">
+                      <h3 class="card-text text-center fw-bold"> Mavi Candace</h3>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-10"
+                  style="width: 18rem;">
+                  <img src="./srcs/cuxe.jpg" class="card-img-top" alt="Retrato Cuxe Candace">
+                  <div class="card-body">
+                      <h3 class="card-text text-center fw-bold"> Cuxe Candace</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-11"
+                style="width: 18rem;">
+                <img src="./srcs/ewe.jpg" class="card-img-top" alt="Retrato Ewe Candace">
+                <div class="card-body">
+                    <h3 class="card-text text-center fw-bold">Ewe Candace</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-12" 
+                style="width: 18rem;">
+                <img src="./srcs/baby.jpg" class="card-img-top" alt="Retrato Baby Lua Candace">
+                <div class="card-body">
+                    <h3 class="card-text text-center fw-bold">Baby Lua Candace</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-13" 
+                style="width: 18rem;">
+                <img src="./srcs/clarice.jpg" class="card-img-top" alt="Retrato Clarice Candace">
+                <div class="card-body">
+                    <h3 class="card-text text-center fw-bold">Clarice Candace</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-14" 
+              style="width: 18rem;">
+              <img src="./srcs/kalu.jpg" class="card-img-top" alt="Retrato Kaluanã Candace">
+              <div class="card-body">
+                  <h3 class="card-text text-center fw-bold"> Kaluanã Candace</h3>
+              </div>
+          </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-15"
+              style="width: 18rem;">
+              <img src="./srcs/joan.jpg" class="card-img-top" alt="Retrato do deMacete Candace">
+              <div class="card-body">
+                  <h3 class="card-text text-center fw-bold"> deMacete Candace</h3>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-16" 
+              style="width: 18rem;">
+              <img src="./srcs/acson.jpg" class="card-img-top" alt="Retrato Acson Candace">
+              <div class="card-body">
+                  <h3 class="card-text text-center fw-bold"> Acson Candace</h3>
+              </div>
+          </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-17" 
+            style="width: 18rem;">
+            <img src="./srcs/lari.jpeg" class="card-img-top" alt="Retrato Lari Candace">
+            <div class="card-body">
+                <h3 class="card-text text-center fw-bold"> Lari Candace</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="col-12 col-md-6 col-lg-4">
+        <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-18"
+            style="width: 18rem;">
+            <img src="./" class="card-img-top" alt="Imagem de ume Prospect Candace">
+            <div class="card-body">
+                <h3 class="card-text text-center fw-bold">Prospect Candace</h3>
+            </div>
+        </div>
+    </div> 
+        </div> --> 
+      </section>
+
+      <section class="banners banner-3">
+        
+      </section>
+      <section class="py-5">
+        <h2 class="text-center fw-bold pb-1"> Nossos momentos </h2>
+
+        <div class="container d-flex justify-content-around flex-wrap">
+
+          <!-- Galery -->
+
+          <div class="container">
+            <hr class="mt-2 mb-5">
+            <div class="row text-center text-lg-start">
+
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="srcs/galeria - 1.jpg" alt="">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="srcs/galeria - 2.jpg" alt="">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="srcs/galeria - 5.jpg" alt="">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="srcs/galeria - 4.jpg" alt="">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="srcs/galeria - 7.jpg" alt="">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="srcs/galeria - 9.jpg" alt="">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="srcs/galeria - 10.jpg" alt="">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="srcs/galeria - 13.jpg" alt="">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="srcs/galeria - 16.jpg" alt="">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="srcs/galeria - 8.jpg" alt="">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="srcs/galeria - 15.jpg" alt="">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="srcs/galeria - 6.jpg" alt="">
+                </a>
+              </div>
+            </div>
+
+          </div>
+          
+        </div>
+      </section>
+      
+      <section class="py-4 container">
+        <div class="row">
+          <div class="col-10 col-xl-8 mx-auto">
+            <div class="border border-2 rounded p-3">
+              <h3 class="fw-bold p-3">Entre em contato!</h3>
+              <form id="contato">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingNome" placeholder="Nome">
+                  <label for="floatingNome">Nome</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
+                  <label for="floatingEmail">Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="number" class="form-control" id="floatingTelefone" placeholder="Telefone">
+                  <label for="floatingTelefone">Telefone</label>
+                </div>
+                <select class="form-select mb-3" aria-label="Default select example">
+                  <option selected>Preferência de contato:</option>
+                  <option value="1">WhatsApp</option>
+                  <option value="2">Email</option>
+                  <option value="3">Ligação</option>
+                </select>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Deseja receber novidades por email?
+                  </label>
+                </div>
+                <button type="button" class="btn botao-padrao w-100 fw-bold mt-3 py-3">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <footer class="text-center">
+        <section class="container p-4 pb-0 mb-4">
+          <a class="btn" href="https://wa.me/5511947744189"><i class="bi bi-whatsapp"></i></a>
+          <a class="btn" href="https://www.instagram.com/casadecandaces/"><i class="bi bi-instagram"></i></a>
+          <a class="btn" href="https://twitter.com/casadecandaces"><i class="bi bi-twitter"></i></a>
+        </section>
+        <div class="p-3">
+            2023 <i class="bi bi-c-circle"></i> Desenvolvido por Kaluanã Candace | Amo minha fml
+        </div>
+    </footer>
+
+  </main>
+
+    <!-- canvas 1 -->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-1" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">/CO</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button botao-padrao" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Objetivo
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Projeto voltado prioritariamente para pessoas pertencentes a cena kiki da comunidade ballroom - composta principalmente por pessoas trans, travestis e LGBQIA+, racializadas e periféricas - de São Paulo e região metropolitana e aberto para todas 
+                outras pessoas interessadas na ball e nas atividades adjacentes a ela, com o objetivo de realizar a primeira edição da 2000 Ball, organizada pela Casa de Candaces.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Descrição das atividades
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                As atividades do projeto articulam a realização da 2000 Ball, interligando ela aos temas relacionados à promoção de formações sobre a cultura de baile, saúde das populações trans e negras e à prevenção das IST e HIV, na perspectiva da prevenção combinada, com as técnicas de produção multimídia e artística, em articulação com o comunidade ballroom como um todo. Para isso, empreenderá sete horas de atividades que compõem a realização da Black and Gold Ball, com 15 categorias. 
+                É importante ressaltar que, o projeto teve abordagem interseccional, de modo que explorou questões relacionadas à gênero, raça, sexualidade, classe, geração e outros marcadores de diferença, levando em conta a forma como eles agudizam as vulnerabilidades individuais, sociais e programáticas e a comunidade ballroom como mote para as discussões e atividades artísticas e sociais. 
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Apoio
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Absolut <br>
+                Casa 1
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Canvas 2 -->
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-2" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">Bienal SP</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="accordion" id="accordionEventos">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse"
+              data-bs-target="#accordionEventos" aria-expanded="false" aria-controls="collapseOne">
+              Descrição
+            </button>
+          </h2>
+          <div id="accordionEventos" class="accordion-collapse collapse" data-bs-parent="#accordionEventos">
+            <div class="accordion-body">
+              As atividades deste projeto articulam a realização da terceira Black and Gold Ball, idealizada pela Casa de Candaces para a 35ª Bienal de São Paulo - 
+              Coreografias do Impossível. A Black and Gold Ball, desde sua concepção, busca fomentar um imaginário em que as pessoas trans e travestis são criadoras de realidades prósperas, onde são produtoras de riqueza e conhecimento. 
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse"
+              data-bs-target="#accordionWhat" aria-expanded="false" aria-controls="collapseOne">
+              O que é Ballroom?
+            </button>
+          </h2>
+          <div id="accordionWhat" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              A cultura ballroom surgiu nos Estados Unidos como espaço de acolhimento e expressão cultural da comunidade LGBTQIA+ negra e latina e tem suas raízes nos bailes drag, cujos primeiros registros vem desde a segunda metade do século XIX. No final da década de 1960, eclodiram conflitos raciais nos concursos de beleza dos bailes drag. Crystal LaBeija, considerada pioneira da comunidade ballroom em Nova York, questionou alguns padrões de beleza estabelecidos, que privilegiavam as candidatas brancas e por consequência exigiam o embranquecimento das candidatas negras. 
+              A partir disso, começou a se formar uma nova rede de bailes e competições voltadas para a comunidade negra e latina e, com o passar do tempo, foi se dividindo em diferentes categorias de estética, moda e dança - o vogue, também dando início a organização de coletividades intituladas "houses" ou “casas”. A ballroom se espalhou pelo mundo e hoje temos no Brasil movimentações em todas as suas regiões, trazendo contribuições importantes para a cena a partir das múltiplas vivências existentes no país e também espaço de referência e acolhimento para a comunidade LGBTQIA+. 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  </div>
+
+  <!-- Canvas 3 -->
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-3" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">Museu da História e da Cultura Afro-Brasileira</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse"
+              data-bs-target="#accordionWhen" aria-expanded="false" aria-controls="collapseOne">
+              Fundação
+            </button>
+          </h2>
+          <div id="accordionWhen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              A Casa de Candaces foi fundada em Junho de 2019, na Pajuball, uma ball realizada pelo Coletivo Amem na Semana do Orgulho LGBTQIA+ em São Paulo, partindo da iniciativa da Legendary Mother Zaila Candace, ao propor uma casa exclusivamente voltada para pessoas trans e travestis e, ao longo desses três anos, esteve presente em workshops de dança e performance, festivais nacionais de arte LGBTQIA+, institutos nacionais de arte e com atuação marcante nas balls e comunidade ballroom e suas atividades como um todo. A Casa de Candaces realizou sua programação de aniversário de 1 ano, contando com oficinas, performance e roda de conversa, e, ao final, foi promovida a primeira edição da Black and Gold Ball, um baile idealizado pela Casa de Candaces, totalmente de forma virtual. A segunda Black and Gold Ball aconteceu no ano de 2022, em parceria com o Museu da Língua Portuguesa e em comemoração aos 3 anos da kiki house.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse"
+              data-bs-target="#accordionEntrega" aria-expanded="false" aria-controls="collapseOne">
+              Categorias marcantes
+            </button>
+          </h2>
+          <div id="accordionEntrega" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Real Cria/Faixa Rosa, Roxa ou Preta - Realness.<br>
+
+Quem é: é. Quem não é: nunca vai ser. Brota quem é cria, e brota quem é Barbie, brota quem é Faixa e quem é Baddie. Cria tem estilo e favela é realidade, brota daquele jeitão, pique dia de baile, pra contar sua história. 
+
+Categoria aberta para Favelades. <br> <br>
+Og favela Style - Fashion Killa.<br>
+
+Mona, não faz feiúra. O tema dessa categoria é originalidade. Favela é moda e aqui não tá tendo brazilcore dessa vez. Traga pra passarela aquele estilo que é só teu, a tua marca de Cria Favela Chic.
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  </div>
+
+  <!-- Modal 1 -->
+
+  <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Founder mother</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/mother_descricao.jpg" class="w-100" alt="Xícara de café preto">
+          <p>Artista independente, performer, professora e coreógrafa de danças urbanas . Iniciou os estudos nas danças urbanas, junto com teatro musical, em 2008. Nesse mesmo ano, começou a participar de festivais e competições de dança pelo Brasil e exterior .</p>
+          <p> Atualmente, trabalha com performances que tem como base a quebra de padrões em âmbitos como: estética, Mãe da Casa de Candaces kikihouse, pertencente ao capítulo Brasil dentro da Comunidade Ballroom, faz parte da House Of Zion, grupo de performers que desenvolve a dança Voguing através de intervenções e encontros com a comunidade Ballroom, em São Paulo, e também em outros estados do Brasil.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Modal 2 -->
+
+  <div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Overall Prince</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/puri_descicao.jpg" class="w-100" alt="Xícara de café expresso">
+          <p>Puri Yaguarete é artista visual, educador, ator, palhaço, malabarista, performer e dançarino.
+            Originário do Rio de Janeiro, atualmente vive em São Paulo atuando na intersecção de
+            linguagens artísticas tendo o movimento como gerador de conhecimento e comunicação.</p>
+          <p>Integra a Legendary Casa de Candaces, coletivo que movimenta o protagonismo de
+            pessoas trans racializades dentro da comunidade Ballroom e a Internacional Iconic House of Ninja.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Modal 3 -->
+
+  <div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">MODAL 3</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/puri_descicao.jpg" class="w-100" alt="imagem do puri candace">
+          <p>moral3modal3modal3modal3modal3.</p>
+          <p>modal3modal3modal3modal3modal</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 4 -->
+
+  <div class="modal fade" id="modal-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">MODAL 4</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/puri_descicao.jpg" class="w-100" alt="Retrato MODAL 4">
+          <p>MODAL4MODAL4MODAL4MODAL4MODAL4</p>
+          <p>MODAL4MODAL4MODAL4MODAL4MODAL4</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 5 -->
+
+  <div class="modal fade" id="modal-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">MODAL 5</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/puri_descicao.jpg" class="w-100" alt="Retrato MODAL 5">
+          <p>MODAL5MODAL5MODAL5MODAL5MODAL5MODAL5.</p>
+          <p>MODAL5MODAL5MODAL5MODAL5MODAL5MODAL5.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 6 -->
+
+  <div class="modal fade" id="modal-6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">MODAL 6</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/puri_descicao.jpg" class="w-100" alt="Xícara de café expresso">
+          <p>MODAL6 DESCRIÇAO.</p>
+          <p>MODAL6 DESCRICAO</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal  7-->
+
+  <div class="modal fade" id="modal-7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">MODAL7</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/puri_descicao.jpg" class="w-100" alt="Retrato Modal 7">
+          <p>descricao modal 7.</p>
+          <p>descricao modal 7</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 8 -->
+
+  <div class="modal fade" id="modal-8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">MODAL 8</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/puri_descicao.jpg" class="w-100" alt="RETRATO MODAL 8">
+          <p>DESCRICAO MODAL 8</p>
+          <p>RETRATO MODAL 8</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+            <!-- Modal 9 -->
+
+  <div class="modal fade" id="modal-9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">MODAL 9</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/puri_descicao.jpg" class="w-100" alt="RETRATO MODAL 9">
+          <p>DESCRICAO MODAL 9.</p>
+          <p>DESCRICAO MODAL 9</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 10 -->
+
+  <div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">MODAL 10</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/puri_descicao.jpg" class="w-100" alt="RETRATO MODAL 10">
+          <p>DESCRICAO MODAL 10 </p>
+          <p>DESCRICAO MODAL 10</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 11 -->
+
+  <div class="modal fade" id="modal-11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Overall Prince</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/puri_descicao.jpg" class="w-100" alt="Xícara de café expresso">
+          <p>Puri Yaguarete é artista visual, educador, ator, palhaço, malabarista, performer e dançarino.
+            Originário do Rio de Janeiro, atualmente vive em São Paulo atuando na intersecção de
+            linguagens artísticas tendo o movimento como gerador de conhecimento e comunicação.</p>
+          <p>Integra a Legendary Casa de Candaces, coletivo que movimenta o protagonismo de
+            pessoas trans racializades dentro da comunidade Ballroom e a Internacional Iconic House of Ninja.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 12 -->
+
+  <div class="modal fade" id="modal-12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Overall Prince</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/puri_descicao.jpg" class="w-100" alt="Xícara de café expresso">
+          <p>Puri Yaguarete é artista visual, educador, ator, palhaço, malabarista, performer e dançarino.
+            Originário do Rio de Janeiro, atualmente vive em São Paulo atuando na intersecção de
+            linguagens artísticas tendo o movimento como gerador de conhecimento e comunicação.</p>
+          <p>Integra a Legendary Casa de Candaces, coletivo que movimenta o protagonismo de
+            pessoas trans racializades dentro da comunidade Ballroom e a Internacional Iconic House of Ninja.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 13 -->
+
+  <div class="modal fade" id="modal-13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Overall Prince</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/puri_descicao.jpg" class="w-100" alt="Xícara de café expresso">
+          <p>Puri Yaguarete é artista visual, educador, ator, palhaço, malabarista, performer e dançarino.
+            Originário do Rio de Janeiro, atualmente vive em São Paulo atuando na intersecção de
+            linguagens artísticas tendo o movimento como gerador de conhecimento e comunicação.</p>
+          <p>Integra a Legendary Casa de Candaces, coletivo que movimenta o protagonismo de
+            pessoas trans racializades dentro da comunidade Ballroom e a Internacional Iconic House of Ninja.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 14 -->
+
+  <div class="modal fade" id="modal-14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Overall Prince</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/puri_descicao.jpg" class="w-100" alt="Xícara de café expresso">
+          <p>Puri Yaguarete é artista visual, educador, ator, palhaço, malabarista, performer e dançarino.
+            Originário do Rio de Janeiro, atualmente vive em São Paulo atuando na intersecção de
+            linguagens artísticas tendo o movimento como gerador de conhecimento e comunicação.</p>
+          <p>Integra a Legendary Casa de Candaces, coletivo que movimenta o protagonismo de
+            pessoas trans racializades dentro da comunidade Ballroom e a Internacional Iconic House of Ninja.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 15 -->
+
+  <div class="modal fade" id="modal-15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Overall Prince</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/puri_descicao.jpg" class="w-100" alt="Xícara de café expresso">
+          <p>Puri Yaguarete é artista visual, educador, ator, palhaço, malabarista, performer e dançarino.
+            Originário do Rio de Janeiro, atualmente vive em São Paulo atuando na intersecção de
+            linguagens artísticas tendo o movimento como gerador de conhecimento e comunicação.</p>
+          <p>Integra a Legendary Casa de Candaces, coletivo que movimenta o protagonismo de
+            pessoas trans racializades dentro da comunidade Ballroom e a Internacional Iconic House of Ninja.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 16 -->
+
+  <div class="modal fade" id="modal-16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Overall Prince</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/puri_descicao.jpg" class="w-100" alt="Xícara de café expresso">
+          <p>Puri Yaguarete é artista visual, educador, ator, palhaço, malabarista, performer e dançarino.
+            Originário do Rio de Janeiro, atualmente vive em São Paulo atuando na intersecção de
+            linguagens artísticas tendo o movimento como gerador de conhecimento e comunicação.</p>
+          <p>Integra a Legendary Casa de Candaces, coletivo que movimenta o protagonismo de
+            pessoas trans racializades dentro da comunidade Ballroom e a Internacional Iconic House of Ninja.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 17 -->
+
+  <div class="modal fade" id="modal-17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Overall Prince</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/puri_descicao.jpg" class="w-100" alt="Xícara de café expresso">
+          <p>Puri Yaguarete é artista visual, educador, ator, palhaço, malabarista, performer e dançarino.
+            Originário do Rio de Janeiro, atualmente vive em São Paulo atuando na intersecção de
+            linguagens artísticas tendo o movimento como gerador de conhecimento e comunicação.</p>
+          <p>Integra a Legendary Casa de Candaces, coletivo que movimenta o protagonismo de
+            pessoas trans racializades dentro da comunidade Ballroom e a Internacional Iconic House of Ninja.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 18 -->
+
+  <div class="modal fade" id="modal-18" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Overall Prince</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/puri_descicao.jpg" class="w-100" alt="Xícara de café expresso">
+          <p>Puri Yaguarete é artista visual, educador, ator, palhaço, malabarista, performer e dançarino.
+            Originário do Rio de Janeiro, atualmente vive em São Paulo atuando na intersecção de
+            linguagens artísticas tendo o movimento como gerador de conhecimento e comunicação.</p>
+          <p>Integra a Legendary Casa de Candaces, coletivo que movimenta o protagonismo de
+            pessoas trans racializades dentro da comunidade Ballroom e a Internacional Iconic House of Ninja.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 19 -->
+
+  <div class="modal fade" id="modal-19" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Overall Prince</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/puri_descicao.jpg" class="w-100" alt="Xícara de café expresso">
+          <p>Puri Yaguarete é artista visual, educador, ator, palhaço, malabarista, performer e dançarino.
+            Originário do Rio de Janeiro, atualmente vive em São Paulo atuando na intersecção de
+            linguagens artísticas tendo o movimento como gerador de conhecimento e comunicação.</p>
+          <p>Integra a Legendary Casa de Candaces, coletivo que movimenta o protagonismo de
+            pessoas trans racializades dentro da comunidade Ballroom e a Internacional Iconic House of Ninja.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 20 -->
+
+  <div class="modal fade" id="modal-20" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Overall Prince</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/puri_descicao.jpg" class="w-100" alt="Xícara de café expresso">
+          <p>Puri Yaguarete é artista visual, educador, ator, palhaço, malabarista, performer e dançarino.
+            Originário do Rio de Janeiro, atualmente vive em São Paulo atuando na intersecção de
+            linguagens artísticas tendo o movimento como gerador de conhecimento e comunicação.</p>
+          <p>Integra a Legendary Casa de Candaces, coletivo que movimenta o protagonismo de
+            pessoas trans racializades dentro da comunidade Ballroom e a Internacional Iconic House of Ninja.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 21 -->
+
+  <div class="modal fade" id="modal-21" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Overall Prince</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./srcs/puri_descicao.jpg" class="w-100" alt="Xícara de café expresso">
+          <p>Puri Yaguarete é artista visual, educador, ator, palhaço, malabarista, performer e dançarino.
+            Originário do Rio de Janeiro, atualmente vive em São Paulo atuando na intersecção de
+            linguagens artísticas tendo o movimento como gerador de conhecimento e comunicação.</p>
+          <p>Integra a Legendary Casa de Candaces, coletivo que movimenta o protagonismo de
+            pessoas trans racializades dentro da comunidade Ballroom e a Internacional Iconic House of Ninja.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
