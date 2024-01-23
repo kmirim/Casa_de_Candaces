@@ -3,8 +3,9 @@
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=IN%20PROCESS&color=GREEN&style=for-the-badge"/>
 </p>
 
-<h2>Preview: </h2>
-
-<div aling="center">
+<h2 align="center">Preview: </h2>
+<div align="center">
+  
   ![](https://github.com/kmirim/Casa_de_Candaces/blob/main/GIF.png)
+  
 </div>
